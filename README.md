@@ -18,6 +18,10 @@ Notes -
 
 ## Refine Retrieval Chains
 Relatively simpler construction, original question is passed in sequence with retrieved documents
+For each LLM call, we pass output from any the previous LLM alongwith the retrieved document as context, we ask LLM to refine answer if needed
+* Note existing answer, context str and output in the attached picture
+![Screenshot 2024-06-03 at 6 36 47 PM](https://github.com/unnitin/langchain-chat-with-your-data/assets/14156349/4f08886e-ebbe-47ff-bb5a-ab43dbf25d0a)
+
 
 
 Note - All original content belongs to DeepLearning.AI; I am only saving my specific runs of notebooks with a few examples based on understanding from the course
