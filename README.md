@@ -17,6 +17,7 @@ Notes -
 
 
 ## Refine Retrieval Chains
+Relatively simpler construction, original question is passed in sequence with retrieved documents
 
 
 Note - All original content belongs to DeepLearning.AI; I am only saving my specific runs of notebooks with a few examples based on understanding from the course
