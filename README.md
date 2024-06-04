@@ -5,7 +5,9 @@ Contains notebooks with outputs from personal runs, saved for quick reference
 Step 1, Individual LLMs, 1 per retrieved document
 ![Screenshot 2024-06-03 at 6 37 03 PM](https://github.com/unnitin/langchain-chat-with-your-data/assets/14156349/a70e9e2f-f2cf-4c43-bb44-93f14ebcee95)
 
-Step 2, StuffDocument LLM, all outputs 
+Step 2, StuffDocument LLM, all outputs from individual LLM runs are stuffed together and passed as context to answer the question 
+![Screenshot 2024-06-03 at 7 15 45 PM](https://github.com/unnitin/langchain-chat-with-your-data/assets/14156349/e0b59a33-d976-4d66-af62-35f36fd10a54)
+
 
 Notes - 
 1. From the LHS of the panel, we see the calls to MapReduce -> LLM Chain and StuffDocument Chain
