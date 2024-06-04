@@ -1,5 +1,5 @@
 # langchain-chat-with-your-data
-Contains notebooks with outputs from personal runs, saved for quick reference
+Contains notebooks with outputs from personal runs from the [langchain-course](https://www.coursera.org/learn/langchain-chat-with-your-data-project/home/week/1), saved for quick reference
 
 ## Map Reduce Retrieval Chains
 Step 1, Individual LLMs, 1 per retrieved document
